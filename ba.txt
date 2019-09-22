@@ -1,0 +1,14 @@
+
+
+
+LMS:
+1.On Lead details page Next meeting date and time not proper displayed on header.
+2.Leads count not displayed for Live,Follow Up,Closed.
+
+
+if let distributorKYCStatus = Utils.getDistributorKycStatus() {
+            if ( distributorKYCStatus == .active || distributorKYCStatus == .companyApproved ||
+            distributorKYCStatus == .systemApproved) {
+                presenter?.showAddRetailerVC()
+            }
+        }
